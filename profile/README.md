@@ -16,10 +16,6 @@ Whether you're working solo or with a team, Architect helps you write better sof
 
 ---
 
-> You can also explore each module for real-time stats, contributors, and activity.
-
----
-
 ## 📚 Docs & Getting Started
 
 - 📖 [Documentation](https://your-docs-url.com)
@@ -27,6 +23,4 @@ Whether you're working solo or with a team, Architect helps you write better sof
 - 💬 [Community Discussions](https://github.com/orgs/YOUR_ORG_NAME/discussions)
 
 ---
-
-_Architect is built to simplify software delivery while enforcing the standards that matter._
 
