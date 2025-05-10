@@ -16,6 +16,14 @@ Whether you're working solo or with a team, Architect helps you write better sof
 
 ---
 
+### One‑Line Installer Script
+
+```bash
+curl -sSL https://raw.githubusercontent.com/alemazzo/architect/main/.installers/bash | bash
+```
+
+---
+
 ## 📚 Docs & Getting Started
 
 - 📖 [Documentation](https://your-docs-url.com)
