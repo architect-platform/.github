@@ -31,8 +31,7 @@ architect engine start
 
 ## Setup Architect Project
 
-Add an `architect.yml` file configuring the project name and the plugins.
-This file should be placed at the root of your repository
+Create an `architect.yml` in the root of your project:
 ```yaml
 project:
   name: architect-cli
@@ -54,15 +53,17 @@ gradle:
 
 ## Run Architect
 
-Now you can run architect
+Start building with Architect:
 ```bash
 architect
-$> usage: ...
+# usage: ...
 ```
 
+Common commands:
 ```bash
 architect init
 architect build
+architect test
 ...
 ```
 
