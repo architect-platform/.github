@@ -31,7 +31,8 @@ architect engine start
 
 ## Setup Architect Project
 
-Add an `architect.yml` file configuring the project name and the plugins>
+Add an `architect.yml` file configuring the project name and the plugins.
+This file should be placed at the root of your repository
 ```yaml
 project:
   name: architect-cli
@@ -44,17 +45,27 @@ plugins:
 
 You can then configure the plugins either in the `architect.yml` file or under the `.architect` folder in any `.yml` file
 ```yaml
-æ .architect/gradle.yml
+# .architect/gradle.yml
 gradle:
   projects:
     - name: architect-cli
       path: cli
 ```
 
-## Run Architect wherever you want
+## Run Architect
+
+Now you can run architect
 ```bash
-architect <command>?
+architect
+$> usage: ...
 ```
+
+```bash
+architect init
+architect build
+...
+```
+
 ---
 
 ## 📚 Docs & Getting Started
