@@ -16,21 +16,17 @@ Whether you're working solo or with a team, Architect helps you write better sof
 
 ---
 
-### CLI One‑Line Installer Script
+### One‑Line Installer Script
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/architect-platform/architect-cli/main/.installers/bash | bash
 ```
 
-### Engine One‑Line Installer Script
-
+## Install & Run the Engine
 ```bash
-curl -sSL https://raw.githubusercontent.com/architect-platform/architect-engine/main/.installers/bash | bash
-```
-
-## Run the Engine
-```bash
-architect-engine
+architect engine install
+architect engine start
+# architet engine stop/clean
 ```
 
 ## Run Architect wherever you want
