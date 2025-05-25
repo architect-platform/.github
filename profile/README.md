@@ -29,6 +29,28 @@ architect engine start
 # architet engine stop/clean
 ```
 
+## Setup Architect Project
+
+Add an `architect.yml` file configuring the project name and the plugins>
+```yaml
+project:
+  name: architect-cli
+  description: "A command-line architect for your projects."
+
+plugins:
+  - name: gradle-architected
+  - name: github-architected
+```
+
+You can then configure the plugins either in the `architect.yml` file or under the `.architect` folder in any `.yml` file
+```yaml
+æ .architect/gradle.yml
+gradle:
+  projects:
+    - name: architect-cli
+      path: cli
+```
+
 ## Run Architect wherever you want
 ```bash
 architect <command>?
